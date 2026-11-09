@@ -1,0 +1,16 @@
+{
+  "name": "crivo-finance",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx vercel dev",
+    "test": "node --test tests/*.test.mjs",
+    "segredos": "node scripts/preparar-acesso.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "web-push": "^3.6.7"
+  }
+}

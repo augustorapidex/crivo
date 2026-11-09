@@ -1,0 +1,54 @@
+CRIVO FINANCE — APLICATIVO COMPLETO
+==================================
+
+O QUE VOCE RECEBE
+- Aplicativo responsivo com 7 telas, senhas, saldos, parcelas, metas e relatorios.
+- Informacoes guardadas de forma permanente apos conectar o Neon na Vercel.
+- Avisos internos e notificacoes no iPhone quando estiver instalado na Tela de Inicio.
+- Opcao de baixar a planilha de movimentacoes.
+- O aplicativo publicado comeca com saldo R$ 0,00.
+
+PUBLICACAO — UMA ACAO POR PASSO
+1. Baixe Crivo_Finance_App_Completo.zip no computador.
+2. Extraia o arquivo ZIP.
+3. Abra configurar-acesso.html dentro da pasta extraida.
+4. Escolha sua senha de acesso e informe seu proprio e-mail.
+5. Clique em Gerar minhas configuracoes.
+6. Guarde os valores gerados em local privado.
+7. Acesse github.com e entre na sua conta.
+8. Crie um repositorio PRIVADO com o nome crivo-finance.
+9. Envie o CONTEUDO da pasta crivo-finance-app para a raiz do repositorio privado.
+10. Acesse vercel.com e entre na sua conta.
+11. Selecione Adicionar novo > Projeto.
+12. Selecione o repositorio privado crivo-finance.
+13. Escolha a opcao Other e confirme a primeira publicacao.
+14. No seu projeto da Vercel, abra Marketplace.
+15. Escolha Neon e conecte esse armazenamento ao projeto.
+16. Confirme nas configuracoes que a conexao criou DATABASE_URL.
+17. Na Vercel, abra Configuracoes > Variaveis de ambiente.
+18. Cadastre, uma por uma, as seis informacoes geradas no passo 5.
+19. Salve essas seis informacoes para o ambiente de Producao.
+20. Publique novamente o projeto para aplicar as configuracoes.
+21. Abra o endereco do Crivo Finance e entre com a senha criada.
+22. No iPhone, abra o endereco no Safari.
+23. Toque em Compartilhar > Adicionar a Tela de Inicio.
+24. Abra o Crivo Finance pelo novo icone.
+25. Entre em Configuracoes > Ativar notificacoes.
+26. Permita os avisos no iPhone quando ele solicitar.
+
+IMPORTANTE
+- Nao publique os valores do arquivo configurar-acesso.html em locais publicos.
+- Nao compartilhe as seis informacoes que voce gerou, nem sua senha.
+- A pasta nao contem informacoes financeiras reais do usuario.
+- Os valores de teste do arquivo de demonstracao nao serao salvos no sistema.
+- Sem a conexao de armazenamento e as informacoes de acesso, o sistema nao estara pronto para uso.
+- O aviso por notificacao depende de instalacao no iPhone, permissao e rotina diaria.
+- O plano gratuito da Vercel permite verificacoes diarias, mas o horario exato pode variar.
+- O Neon pode ter limites, custos ou condicoes proprias conforme o plano escolhido.
+- A publicacao real e a entrega real dos avisos precisam ser verificadas depois da ativacao.
+
+TESTES CONCLUIDOS
+- 11 testes de calculos e datas passaram.
+- Telas testadas nas larguras 320, 390 e 1440 pixels.
+- Cadastro de compra a vista, navegacao e atualizacao de valores testados com dados ficticios.
+- Parcelas de uma compra sao gravadas juntas, sem risco de salvar apenas parte delas.
